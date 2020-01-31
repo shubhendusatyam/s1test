@@ -10,7 +10,7 @@ function printNumber($n) {
 
     if (100 >= $n) {
         //echo $n."->".multiThree($n).'-'.multiFive($n); echo PHP_EOL;
-        echo $n . "->" . $value[multiThree($n) . '-' . multiFive($n)];
+        echo $value[multiThree($n) . '-' . multiFive($n)];
         echo PHP_EOL;
         printNumber($n + 1);
     }
